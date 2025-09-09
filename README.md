@@ -31,7 +31,7 @@ This house price prediction project aims to predict house prices using a machine
 The project is structured into following files:
 
 * 'HousePricePrediction.xlsx': The dataset file in Excel format.
-* 'House-price-prediction.ipynb': The main Python script for data processing and model training.
+* 'House-Price-Prediction.ipynb': The main Python script for data processing and model training.
 * 'README.md': This project documentation file.
 * '.gitignore': Specifies files to be ignored by Git (e.g., temporary files, sensitive data).
 * 'requirements.txt': Lists all the necessary Python libraries for the project.
