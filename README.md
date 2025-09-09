@@ -1,12 +1,8 @@
 # House-Price-Prediction
-![Python](https://img.shields.io/badge/Python-3.10-blue.svg?logo=python&logoColor=white)  
-![Colab](https://img.shields.io/badge/Google-Colab-orange?logo=google-colab&logoColor=white)  
-![Pandas](https://img.shields.io/badge/pandas-Data%20Analysis-blue?logo=pandas)  
-![NumPy](https://img.shields.io/badge/numpy-Numerical-green?logo=numpy)  
-![Matplotlib](https://img.shields.io/badge/matplotlib-Visualization-yellow)  
-![Seaborn](https://img.shields.io/badge/seaborn-Stats%20Plots-lightblue)  
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn)  
-![Machine Learning](https://img.shields.io/badge/Models-9%20Classifiers-success)  
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg?logo=python&logoColor=white)  ![Colab](https://img.shields.io/badge/Google-Colab-orange?logo=google-colab&logoColor=white)  
+![Pandas](https://img.shields.io/badge/pandas-Data%20Analysis-blue?logo=pandas)  ![NumPy](https://img.shields.io/badge/numpy-Numerical-green?logo=numpy)  
+![Matplotlib](https://img.shields.io/badge/matplotlib-Visualization-yellow)  ![Seaborn](https://img.shields.io/badge/seaborn-Stats%20Plots-lightblue)  
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikitlearn)  ![Machine Learning](https://img.shields.io/badge/Models-3%20Regressors-success)  
 
 ## 📑 Table of Contents
 - [General Overview](#general-overview)
@@ -22,7 +18,7 @@
 ---
 
 ## 📝 General Overview  
-This house price prediction project aims to predict house prices using a machine learning model. To tackle this issue, a machine learning model trained on the House Price Prediction Dataset. A dataset containing various features of houses, such as square footage, number of bedrooms, and location, is used here to train a regression model. The model will then be able to estimate the price of a house based on its characteristics and gain valuable insights from it. The dataset contains 13 features such as- Id(to count records), MSSubClass (identifies the type of dwelling involved in the sale), MSZoning(indicates the general zoning classification of the sale), LotArea(lot size in square feet), LotConfig(Configuration of the lot), BldgType(Type of building),OverallCond (indicates the overall condition of the house), YearBuilt(denotes original construction year), YearRemodAdd(denotes remodel date & same as construction date if no remodeling or additions are done), Exterior1st(exterior covering on house), BsmtFinSF2(type 2 finished square feet), TotalBsmtSF(Total square feet of basement area), and the target variable SalePrice that needs to be predicted. 
+This house price prediction project aims to predict house prices using a machine learning model. To tackle this issue, a machine learning model is trained on the House Price Prediction Dataset. The dataset containing various features of houses, such as square footage, number of bedrooms, and location, is used here to train a regression model. Then the price of a house is estimated based on its characteristics. The dataset contains 13 features such as- Id(to count records), MSSubClass (identifies the type of dwelling involved in the sale), MSZoning(indicates the general zoning classification of the sale), LotArea(lot size in square feet), LotConfig(Configuration of the lot), BldgType(Type of building),OverallCond (indicates the overall condition of the house), YearBuilt(denotes original construction year), YearRemodAdd(denotes remodel date & same as construction date if no remodeling or additions are done), Exterior1st(exterior covering on house), BsmtFinSF2(type 2 finished square feet), TotalBsmtSF(Total square feet of basement area), and the target variable SalePrice that needs to be predicted. 
 
 ---
 
@@ -30,12 +26,12 @@ This house price prediction project aims to predict house prices using a machine
 
 The project is structured into following files:
 
-* 'HousePricePrediction.xlsx': The dataset file in Excel format.
-* 'House-Price-Prediction.ipynb': The main Python script for data processing and model training.
-* 'README.md': This project documentation file.
-* '.gitignore': Specifies files to be ignored by Git (e.g., temporary files, sensitive data).
-* 'requirements.txt': Lists all the necessary Python libraries for the project.
-* 'submission.csv': The output file containing the model's predictions.
+* `HousePricePrediction.xlsx`: The dataset file in Excel format.
+* `House-Price-Prediction.ipynb`: The main Python script for data processing and model training.
+* `README.md`: This project documentation file.
+* `.gitignore`: Specifies files to be ignored by Git (e.g., temporary files, sensitive data).
+* `requirements.txt`: Lists all the necessary Python libraries for the project.
+* `submission.csv`: The output file containing the model's predictions.
 
 The project included the following tasks:
 - Exploratory Data Analysis (EDA)  
